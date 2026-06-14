@@ -91,6 +91,8 @@ export function HomeHero() {
               {SITE.dates} · {SITE.venue}
             </p>
             <Countdown />
+          </motion.div>
+        </div>
       </div>
     </section>
   )
