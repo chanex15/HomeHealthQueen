@@ -94,15 +94,6 @@ export function HomeHero() {
           </motion.div>
         </div>
       </div>
-
-      {/* scroll cue */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-gold/60">
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.8 }}
-          className="h-10 w-6 rounded-full border border-gold/40"
-        >
-          <div className="mx-auto mt-2 h-2 w-1 rounded-full bg-gold/70" />
         </motion.div>
       </div>
     </section>
